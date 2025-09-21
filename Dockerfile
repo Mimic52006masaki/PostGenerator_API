@@ -27,7 +27,7 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 
 # ポート
-EXPOSE 3000
+EXPOSE 3001
 
 # Railsサーバー起動（開発用）
-CMD ["bin/rails", "server", "-b", "0.0.0.0"]
+CMD ["bin/rails", "server", "-p", "3001", "-b", "0.0.0.0"]

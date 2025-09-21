@@ -30,3 +30,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Added by Gemini to ignore bootsnap cache and other temporary files
+tmp/cache/bootsnap/
+tmp/local_secret.txt
+tmp/restart.txt
